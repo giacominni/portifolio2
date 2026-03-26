@@ -33,7 +33,7 @@ const PROJECTS = [
 ];
 
 const SERVICES = [
-  { num: "01", title: "Desenvolvimento Web", desc: "Sites institucionais, sistemas e aplicações robustas do zero — arquitetura limpa, código que escala.", icon: "⟨/⟩" },
+  { num: "01", title: "Desenvolvimento Web", desc: "Sites institucionais, sistemas e aplicações robustas do zero, arquitetura limpa, código que escala.", icon: "⟨/⟩" },
   { num: "02", title: "UI/UX Design",        desc: "Interfaces que encantam, convertem e criam memória. Da pesquisa ao protótipo ao pixel final.",     icon: "◈" },
   { num: "03", title: "SEO & Performance",   desc: "Otimização técnica profunda: Core Web Vitals, estrutura semântica, velocidade que o Google nota.", icon: "↗" },
 ];
@@ -53,7 +53,7 @@ const TECH = ["JavaScript", "React", "Node.js", "TypeScript", "SQL", "Git", "Tai
 const TIMELINE = [
   { year: "Atual",     role: "Customer Success Pleno",     place: "Sul Mídia",       desc: "Retenção e sucesso de clientes estratégicos. Ponte entre produto e pessoas." },
   { year: "Em curso",  role: "Análise & Des. de Sistemas", place: "Faculdade",       desc: "Transição de carreira focada em engenharia de software e arquitetura de sistemas." },
-  { year: "Mar 2023",  role: "Analista CS Jr",             place: "Sul Mídia",       desc: "Início da jornada — análise, onboarding e suporte técnico a clientes." },
+  { year: "Mar 2023",  role: "Analista CS Jr",             place: "Sul Mídia",       desc: "Início da jornada: análise, onboarding e suporte técnico a clientes." },
   { year: "Concluído", role: "Bacharel em Criminologia",   place: "Ensino Superior", desc: "Formação analítica e investigativa. Base para pensar em sistemas e comportamento." },
 ];
 
@@ -354,14 +354,14 @@ function About() {
               >
                 {nameT}
               </strong>
-              . Minha trajetória começa na <strong>Criminologia</strong> — onde aprendi
+              . Minha trajetória começa na <strong>Criminologia</strong> onde aprendi
               a dissecar padrões, comportamentos e sistemas. Hoje aplico essa
               lógica investigativa no desenvolvimento de software.
             </p>
             <p className="about-p">
               Sou <strong>Customer Success Pleno na Sul Mídia</strong> e estudo
               Análise e Desenvolvimento de Sistemas. Construo interfaces que não
-              são apenas bonitas — são estratégicas e mensuráveis.
+              são apenas bonitas, são estratégicas e mensuráveis.
             </p>
             <div className="tech-grid">
               {TECH.map(t => <span key={t} className="tech-chip">{t}</span>)}
