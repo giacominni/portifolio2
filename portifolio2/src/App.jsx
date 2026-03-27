@@ -336,7 +336,7 @@ function About() {
               Uma mente<br /><em>analítica</em><br />no frontend.
             </h2>
             <div className="about-stats">
-              {[['2+','anos de CS'],['3+','projetos'],['∞','café']].map(([n, l]) => (
+              {[['2+','anos de CS'],['8+','projetos'],['∞','café']].map(([n, l]) => (
                 <div key={l} className="about-stat">
                   <span className="stat-n">{n}</span>
                   <span className="stat-l">{l}</span>
