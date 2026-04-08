@@ -22,7 +22,6 @@
   --border-ink: rgba(26,26,26,0.10);
   --shadow:  0 4px 32px rgba(26,26,26,0.08);
 
-  /* 👇 Aqui está a magia da Bricolage! 👇 */
   --font-display: 'Bricolage Grotesque', sans-serif;
   --font-body:    'DM Sans', sans-serif;
   --font-mono:    'DM Mono', 'Courier New', monospace;
