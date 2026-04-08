@@ -39,7 +39,6 @@ const SERVICES = [
 ];
 
 const SKILLS_SHOWCASE = [
-  // 👇 Atualizamos o ID, a label e a tag para o seu novo vídeo
   { id: "videocard", label: "Figma Prototype",   tag: "UI/UX"  },
   { id: "blob",      label: "Blob Animation",   tag: "CSS"    },
   { id: "glass",     label: "Glassmorphism",    tag: "CSS"    },
@@ -115,8 +114,6 @@ function useScramble(original) {
 }
 
 // ─── SHOWCASE WIDGETS ────────────────────────────────────────────────────────
-
-// 👇 Este é o novo componente que renderiza o seu vídeo
 function VideoWidget() {
   const videoRef = useRef(null);
 
@@ -140,7 +137,7 @@ function VideoWidget() {
     >
       <video
         ref={videoRef}
-        src="/0326.mp4" /* O caminho aponta para a pasta public */
+        src="/0326.mp4"
         autoPlay
         loop
         muted
@@ -244,7 +241,6 @@ function DarkLightWidget() {
 }
 
 const WIDGETS = {
-  // 👇 Mapeamos o novo ID 'videocard' para o novo componente
   videocard: VideoWidget, blob: BlobWidget, glass: GlassWidget,
   skeleton: SkeletonWidget, chart: ChartWidget, darklight: DarkLightWidget
 };
