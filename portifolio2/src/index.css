@@ -1040,7 +1040,6 @@ button { font-family: var(--font-display); cursor: pointer; }
   color: var(--muted);
   margin-bottom: 64px;
   font-style: italic;
-  line-width: 1.0rem;
 }
 
 .contact-grid {
