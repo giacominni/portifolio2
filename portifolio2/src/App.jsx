@@ -508,7 +508,7 @@ function Contact() {
     <section className="section" id="contato" ref={ref}>
       <div className={`container reveal ${vis ? 'revealed' : ''}`}>
         <p className="eyebrow">// 006 — CONTATO</p>
-        <h2 className="contact-h">Vamos<br /><em>conversar?</em></h2>
+        <h2 className="contact-h">Vamos<br /><em>conversar</em><span style={{marginLeft: '0.05em'}}>?</span></h2>
         <p className="contact-sub">Aberto a projetos freelance, oportunidades e boas conversas.</p>
         <div className="contact-grid">
           <form className="contact-form" onSubmit={submit}>
