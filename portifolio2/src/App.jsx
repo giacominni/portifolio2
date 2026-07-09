@@ -50,7 +50,7 @@ const SKILLS_SHOWCASE = [
 const TECH = ["JavaScript", "React", "Node.js", "TypeScript", "SQL", "Git", "Tailwind", "CSS3"];
 
 const TIMELINE = [
-  { year: "Atual",     role: "Customer Success Pleno",     place: "Sul Mídia",       desc: "Retenção e sucesso de clientes estratégicos. Ponte entre produto e pessoas." },
+  { year: "Atual",     role: "Analista de Suporte Pleno",     place: "Sul Mídia",       desc: "Retenção e sucesso de clientes estratégicos. Ponte entre produto e pessoas." },
   { year: "Em curso",  role: "Análise & Des. de Sistemas", place: "Faculdade",       desc: "Transição de carreira focada em engenharia de software e arquitetura de sistemas." },
   { year: "Mar 2023",  role: "Analista CS Jr",             place: "Sul Mídia",       desc: "Início da jornada: análise, onboarding e suporte técnico a clientes." },
   { year: "Concluído", role: "Bacharel em Criminologia",   place: "Ensino Superior", desc: "Formação analítica e investigativa. Base para pensar em sistemas e comportamento." },
@@ -355,7 +355,7 @@ function About() {
               lógica investigativa no desenvolvimento de software.
             </p>
             <p className="about-p">
-              Sou <strong>Customer Success Pleno na Sul Mídia</strong> e estudo
+              Sou <strong>Analista de Suporte Pleno na Sul Mídia</strong> e estudo
               Análise e Desenvolvimento de Sistemas. Construo interfaces que não
               são apenas bonitas, são estratégicas e mensuráveis.
             </p>
